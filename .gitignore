@@ -9,6 +9,7 @@
 !/.config/alacritty/**
 !/.config/i3
 !/.config/i3/**
+/.config/i3/display.sh
 !/.config/polybar
 !/.config/polybar/**
 
