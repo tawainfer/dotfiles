@@ -19,4 +19,5 @@
 !/scripts/**
 
 !/.gitignore
+!/link_list.txt
 !/README.md
