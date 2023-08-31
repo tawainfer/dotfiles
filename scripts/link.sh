@@ -16,5 +16,5 @@ do
   aft="${HOME}/$path"
 
   mkdir $(dirname $aft)
-  ln -fsn $bef $aft
+  ln -fsnv $bef $aft
 done
