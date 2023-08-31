@@ -1,8 +1,5 @@
 /*
 
-!/.gitignore
-!/README.md
-
 !/.config
 /.config/**
 !/.config/alacritty
@@ -12,9 +9,14 @@
 /.config/i3/display.sh
 !/.config/polybar
 !/.config/polybar/**
-
 !/.wallpaper
 !/.wallpaper/**
 !/.bashrc
 !/.fehbg
 !/.xprofile
+
+!/scripts
+!/scripts/**
+
+!/.gitignore
+!/README.md
