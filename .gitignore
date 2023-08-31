@@ -4,6 +4,9 @@
 /.config/**
 !/.config/alacritty
 !/.config/alacritty/**
+!/.config/fcitx5
+!/.config/fcitx5/config
+!/.config/fcitx5/profile
 !/.config/i3
 !/.config/i3/**
 /.config/i3/display.sh
