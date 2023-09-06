@@ -1,5 +1,6 @@
 .config/alacritty
 .config/fcitx5
+.config/fontconfig
 .config/i3
 .config/polybar
 .local/share/fonts
