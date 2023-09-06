@@ -18,5 +18,5 @@ do
   rm -rfv $aft
   mkdir $(dirname $aft)
   ln -fsnv "$bef" "$aft"
-  echo '\n'
+  echo ''
 done
