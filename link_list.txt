@@ -1,8 +1,10 @@
 .config/alacritty
 .config/fcitx5
 .config/fontconfig
+.config/gtk-3.0
 .config/i3
 .config/polybar
+.config/qt5ct
 .local/share/fonts
 .wallpaper
 .bashrc
