@@ -5,6 +5,9 @@
 !/.config/alacritty/
 !/.config/alacritty/**
 !/.config/fcitx5/
+!/.config/fcitx5/conf/
+/.config/fcitx5/conf/**
+!/.config/fcitx5/conf/xim.conf
 !/.config/fcitx5/config
 !/.config/fcitx5/profile
 !/.config/fontconfig
