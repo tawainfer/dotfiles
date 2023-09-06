@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo pacman -S --needed acpi alacritty arandr base base-devel blueman bluez bluez-utils chromium dmenu dunst fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-mozc fcitx5-qt feh ffmpegthumbnailer font-manager git grub gvfs gvfs-mtp i3-wm imagemagick intel-ucode jdk-openjdk linux linux-firmware lxappearance materia-gtk-theme neofetch networkmanager noto-fonts-cjk noto-fonts-emoji openssh papirus-icon-theme pipewire-alsa pipewire-pulse playerctl polybar python-pip qt5ct ranger sddm thunar thunar-volman ttf-nerd-fonts-symbols unzip vim virtualbox virtualbox-guest-iso xclip xdg-user-dirs-gtk xfce4-power-manager xorg-server xorg-xdpyinfo xorg-xev xorg-xrandr zip
