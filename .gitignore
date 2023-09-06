@@ -12,6 +12,14 @@
 /.config/i3/display.sh
 !/.config/polybar/
 !/.config/polybar/**
+
+!/.local/
+/.local/**
+!/.local/share/
+/.local/share/**
+!/.local/share/fonts/
+!.local/share/fonts/**
+
 !/.wallpaper/
 !/.wallpaper/**
 !/.bashrc

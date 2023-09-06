@@ -2,6 +2,7 @@
 .config/fcitx5
 .config/i3
 .config/polybar
+.local/share/fonts
 .wallpaper
 .bashrc
 .fehbg
