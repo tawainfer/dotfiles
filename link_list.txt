@@ -9,4 +9,5 @@
 .wallpaper
 .bashrc
 .fehbg
+.gtkrc-2.0
 .xprofile
