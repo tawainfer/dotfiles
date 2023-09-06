@@ -1,13 +1,13 @@
 font:
   size: 14
   normal:
-    family: "PlemolJP Console"
+    family: "PlemolJP Console NF"
     style: Medium
   bold:
-    family: "PlemolJP Console"
+    family: "PlemolJP Console NF"
     style: Bold
   italic:
-    family: "PlemolJP Console"
+    family: "PlemolJP Console NF"
     style: Italic
 
 colors:

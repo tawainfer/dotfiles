@@ -34,8 +34,7 @@ separator = |
 separator-foreground = ${colors.disabled}
 
 font-0 = "Noto Sans CJK JP:style=Bold:size=12;2"
-font-1 = "Noto Sans:style=Bold:size=12;2"
-font-2 = "Symbols Nerd Font:size=16;4"
+font-1 = "Symbols Nerd Font:size=16;4"
 
 modules-left = date xworkspaces xwindow
 modules-center = spotify
