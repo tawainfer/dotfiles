@@ -1,4 +1,5 @@
 .config/alacritty
+.config/dunst
 .config/fcitx5
 .config/fontconfig
 .config/gtk-3.0

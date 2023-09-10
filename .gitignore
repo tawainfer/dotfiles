@@ -4,6 +4,8 @@
 /.config/**
 !/.config/alacritty/
 !/.config/alacritty/**
+!/.config/dunst/
+!/.config/dunst/**
 !/.config/fcitx5/
 !/.config/fcitx5/conf/
 /.config/fcitx5/conf/**
