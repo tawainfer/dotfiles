@@ -11,7 +11,7 @@ alias clip='xclip -selection c'
 alias nv='nvim'
 alias vn='nvim'
 
-MY_COLOR="\[\e[38;2;252;109;204m\]"
+MY_COLOR="\[\e[38;2;90;167;230m\]"
 MY_GRAY="\[\e[38;2;128;128;128m\]"
 MY_WHITE="\[\e[38;2;238;238;238m\]"
 PS1="\n${MY_COLOR}\u@\h ${MY_GRAY}\w\n${MY_WHITE}\$ "
