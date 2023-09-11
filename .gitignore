@@ -12,17 +12,21 @@
 !/.config/fcitx5/conf/xim.conf
 !/.config/fcitx5/config
 !/.config/fcitx5/profile
-!/.config/fontconfig
+!/.config/fontconfig/
+/.config/fontconfig/**
 !/.config/fontconfig/fonts.conf
 !/.config/gtk-3.0/
+/.config/gtk-3.0/**
 !/.config/gtk-3.0/settings.ini
 !/.config/i3/
 !/.config/i3/**
-/.config/i3/display.sh
 !/.config/polybar/
 !/.config/polybar/**
-!/.config/qt5ct
+!/.config/qt5ct/
 !/.config/qt5ct/**
+!/.config/xfce4/
+/.config/xfce4/**
+!/.config/xfce4/helpers.rc
 
 !/.local/
 /.local/**

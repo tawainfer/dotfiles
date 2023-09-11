@@ -6,6 +6,7 @@
 .config/i3
 .config/polybar
 .config/qt5ct
+.config/xfce4
 .local/share/fonts
 .wallpaper
 .bashrc
