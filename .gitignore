@@ -28,13 +28,6 @@
 /.config/xfce4/**
 !/.config/xfce4/helpers.rc
 
-!/.local/
-/.local/**
-!/.local/share/
-/.local/share/**
-!/.local/share/fonts/
-!.local/share/fonts/**
-
 !/.wallpaper/
 !/.wallpaper/**
 !/.bashrc
