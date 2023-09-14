@@ -13,6 +13,7 @@ cd $scripts_path
 ./aur.sh
 ./pacman.sh
 ./link.sh
+./atcoder.sh
 
 if [ ! -f ../.host_rgb ]
 then
