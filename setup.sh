@@ -1,14 +1,14 @@
 #!/bin/sh
 
-script_path=$(readlink -f "$0")
-if [[ $script_path != "${HOME}/dotfiles/scripts/setup.sh" ]]
+setup_path=$(readlink -f "$0")
+if [[ $setup_path != "${HOME}/dotfiles/setup.sh" ]]
 then
   echo 'Move directory to the correct location.'
   exit
 fi
 
-scripts_path=$(dirname $script_path)
-cd $scripts_path
+cd $(dirname $setup_path)
+cd scripts
 
 ./aur.sh
 ./pacman.sh
