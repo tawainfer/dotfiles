@@ -10,8 +10,7 @@ fi
 cd $(dirname $setup_path)
 cd scripts
 
-./aur.sh
-./pacman.sh
+./package.sh
 ./link.sh
 ./atcoder.sh
 
