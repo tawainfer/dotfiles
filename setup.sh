@@ -13,6 +13,7 @@ cd scripts
 ./package.sh
 ./link.sh
 ./atcoder.sh
+./font_install.sh
 
 if [ ! -f ../.host_rgb ]
 then
