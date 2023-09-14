@@ -32,6 +32,8 @@
 !/.wallpaper/
 !/.wallpaper/**
 
+!/keyconfig/
+!/keyconfig/**
 !/lightdm/
 !/lightdm/**
 !/scripts/
