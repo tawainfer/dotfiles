@@ -29,9 +29,11 @@
 !/.config/xfce4/
 /.config/xfce4/**
 !/.config/xfce4/helpers.rc
-
 !/.wallpaper/
 !/.wallpaper/**
+
+!/lightdm/
+!/lightdm/**
 !/scripts/
 !/scripts/**
 
