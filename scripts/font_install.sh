@@ -13,8 +13,11 @@ wget "https://github.com/yuru7/PlemolJP/releases/download/${ver}/${dir}.zip"
 unzip "${dir}.zip"
 rm -rf "${dir}.zip"
 
-cd dir
-mv -v 'PlemolJPConsole_NF' "${HOME}/.local/share/fonts"
+cd $dir
+bef='PlemolJPConsole_NF'
+aft="${HOME}/.local/share/fonts"
+mkdir -p $aft
+mv -v $bef $aft
 
 cd ..
-rm -rf dir
+rm -rf $dir
