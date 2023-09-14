@@ -15,6 +15,7 @@ cd scripts
 ./atcoder.sh
 ./font_install.sh
 ./lightdm.sh
+./keyconfig.sh
 
 if [ ! -f ../.host_rgb ]
 then
