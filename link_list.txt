@@ -4,6 +4,7 @@
 .config/fontconfig
 .config/gtk-3.0
 .config/i3
+.config/nvim
 .config/polybar
 .config/qt5ct
 .config/xfce4

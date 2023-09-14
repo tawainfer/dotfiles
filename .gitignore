@@ -20,6 +20,8 @@
 !/.config/gtk-3.0/settings.ini
 !/.config/i3/
 !/.config/i3/**
+!/.config/nvim/
+!/.config/nvim/**
 !/.config/polybar/
 !/.config/polybar/**
 !/.config/qt5ct/
