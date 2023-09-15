@@ -28,8 +28,8 @@ intel-ucode
 jdk-openjdk
 lightdm
 lightdm-gtk-greeter
-linux
 linux-firmware
+linux-lts
 lxappearance
 materia-gtk-theme
 neofetch
@@ -46,7 +46,6 @@ polybar
 python-pip
 qt5ct
 ranger
-sddm
 spotify
 thunar
 thunar-volman
