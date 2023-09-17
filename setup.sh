@@ -13,7 +13,7 @@ cd scripts
 ./package.sh
 ./link.sh
 ./atcoder.sh
-./font_install.sh
+./plemoljp.sh
 ./lightdm.sh
 ./keyconfig.sh
 
