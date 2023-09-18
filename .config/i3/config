@@ -125,10 +125,10 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-#bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+# bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -204,6 +204,10 @@ bindsym $mod+r mode "resize"
 # screenshot
 bindsym --release $Mod+Print exec import -window root ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
 bindsym --release $mod+Shift+Print exec import -window $(xprop -root | awk '$1=="_NET_ACTIVE_WINDOW(WINDOW):"{print $5}') ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
+
+# launch google-chrome
+bindsym $mod+g exec --no-startup-id google-chrome-stable
+bindsym $mod+Shift+g exec --no-startup-id google-chrome-stable --incognito
 
 # set wallpaper
 exec --no-startup-id ~/.fehbg
