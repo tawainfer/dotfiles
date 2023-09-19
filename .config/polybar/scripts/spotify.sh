@@ -7,8 +7,8 @@ then
 
   if [[ $(cat /tmp/hide_spotify 2> /dev/null) == 'true' ]]
   then
-    title=$(echo $title | sed 's/./\X/g')
-    artist=$(echo $artist | sed 's/./\X/g')
+    title=$(echo $title | sed 's/[^[:space:]]/X/g')
+    artist=$(echo $artist | sed 's/[^[:space:]]/X/g')
   fi
 
   echo "  $title / $artist"
