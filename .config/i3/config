@@ -206,8 +206,8 @@ bindsym --release $Mod+Print exec import -window root ~/Pictures/screenshot/$(da
 bindsym --release $mod+Shift+Print exec import -window $(xprop -root | awk '$1=="_NET_ACTIVE_WINDOW(WINDOW):"{print $5}') ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
 
 # launch google-chrome
-bindsym $mod+g exec --no-startup-id google-chrome-stable
-bindsym $mod+Shift+g exec --no-startup-id google-chrome-stable --incognito
+bindsym --release $mod+g exec --no-startup-id google-chrome-stable
+bindsym --release $mod+Shift+g exec --no-startup-id google-chrome-stable --incognito
 
 # set wallpaper
 exec --no-startup-id ~/.fehbg
