@@ -202,7 +202,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # screenshot
-bindsym --release $Mod+Print exec ffmpeg -f x11grab -i $DISPLAY -vframes 1 ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
+bindsym --release $Mod+Print exec mkdir -pv ${HOME}/Pictures/screenshot & ffmpeg -f x11grab -i $DISPLAY -vframes 1 ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
 
 # launch google-chrome
 bindsym --release $mod+g exec --no-startup-id google-chrome-stable
