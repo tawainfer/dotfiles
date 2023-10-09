@@ -202,8 +202,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # screenshot
-bindsym --release $Mod+Print exec import -window root ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
-bindsym --release $mod+Shift+Print exec import -window $(xprop -root | awk '$1=="_NET_ACTIVE_WINDOW(WINDOW):"{print $5}') ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
+bindsym --release $Mod+Print exec ffmpeg -f x11grab -i $DISPLAY -vframes 1 ~/Pictures/screenshot/$(date "+%Y%m%d-%H%M%S").png
 
 # launch google-chrome
 bindsym --release $mod+g exec --no-startup-id google-chrome-stable
