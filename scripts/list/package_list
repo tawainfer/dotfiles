@@ -24,7 +24,6 @@ grub
 gvfs
 gvfs-mtp
 i3-wm
-imagemagick
 intel-ucode
 jdk-openjdk
 lightdm
@@ -34,6 +33,8 @@ linux-lts
 linux-lts-headers
 lxappearance
 materia-gtk-theme
+mono
+monodevelop-bin
 neofetch
 neovim-nightly-bin
 networkmanager
