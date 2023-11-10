@@ -13,7 +13,7 @@ local options = {
   number = true, -- 行番号を表示
   visualbell = true, -- ビープ音を表示する代わりに画面をフラッシュ
 
-   signcolumn = "yes", -- サインカラムを表示
+  signcolumn = "yes", -- サインカラムを表示
 }
 
 for k, v in pairs(options) do
