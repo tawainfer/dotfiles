@@ -49,11 +49,13 @@ polybar
 python-pip
 qt5ct
 ranger
+rustup
 spotify
 thunar
 thunar-volman
 ttf-nerd-fonts-symbols
 tumbler
+unityhub
 unzip
 vim
 virtualbox
