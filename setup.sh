@@ -22,6 +22,7 @@ fi
 ./package.sh
 ./link.sh
 ./atcoder.sh
+./rustup.sh
 ./plemoljp.sh
 ./lightdm.sh
 ./keyconfig.sh
