@@ -12,8 +12,8 @@ cd scripts
 
 if [ $(pgrep fcitx5 | wc -l) -ne 0 ]
 then
-  read -p 'Do you want to kill fcitx5? It will not work properly if fcitx5 is running. [Y/n]: ' cmd
-  if [[ "$cmd" != "n" && "$cmd" != "N" ]]
+  read -p 'Do you want to kill fcitx5? It will not work properly if fcitx5 is running. [y/N]: ' cmd
+  if [[ "$cmd" == "y" || "$cmd" == "Y" ]]
   then
     killall fcitx5
   fi
