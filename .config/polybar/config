@@ -36,9 +36,9 @@ separator-foreground = ${colors.disabled}
 font-0 = "Noto Sans CJK JP:style=Bold:size=12;2"
 font-1 = "Symbols Nerd Font:size=16;4"
 
-modules-left = date xworkspaces xwindow
+modules-left = date xworkspaces
 modules-center = spotify
-modules-right = bluetooth network filesystem memory pulseaudio xkeyboard cpu wlan eth power
+modules-right = bluetooth network memory pulseaudio power
 
 cursor-click = pointer
 cursor-scroll = ns-resize
