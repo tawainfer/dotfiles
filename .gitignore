@@ -22,6 +22,8 @@
 !/.config/i3/**
 !/.config/nvim/
 !/.config/nvim/**
+!/.config/picom/
+!/.config/picom/**
 !/.config/polybar/
 !/.config/polybar/**
 !/.config/qt5ct/
