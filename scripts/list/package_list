@@ -33,6 +33,7 @@ linux-lts
 linux-lts-headers
 lxappearance
 materia-gtk-theme
+mesa
 mono
 monodevelop-bin
 neofetch
@@ -42,6 +43,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 openssh
 papirus-icon-theme
+picom
 pipewire-alsa
 pipewire-pulse
 playerctl
@@ -55,7 +57,6 @@ thunar
 thunar-volman
 ttf-nerd-fonts-symbols
 tumbler
-unityhub
 unzip
 vim
 virtualbox
