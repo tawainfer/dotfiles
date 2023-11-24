@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ $(playerctl metadata 2> /dev/null | grep spotify | wc -l) -ne 0 ]
 then

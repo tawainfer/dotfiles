@@ -1,12 +1,10 @@
 #!/bin/sh
 
 color='5aa7e6'
-symbol=󰁹
-battery=$(acpi -b | grep -v 'rate information unavailable' | grep -m 1 -oE '[1-9][0-9]*%')
+battery=$(acpi -b | grep -v 'rate information unavailable' | grep -m 1 -oE '[1-9][0-9]*')
+patterns=('󰂎' '󰁺' '󰁻' '󰁼' '󰁽' '󰁾' '󰁿' '󰂀' '󰂁' '󰂂' '󰁹')
 
-if [ -z "$battery" ]
-then
-  color='eee'
-fi
+i=$(( $battery / 10 ))
+pattern=${patterns[$i]}
 
-echo "%{F#$color}$symbol %{F#fff}$battery"
+echo "%{F#${color}}${pattern} %{F#eee}${battery}%"

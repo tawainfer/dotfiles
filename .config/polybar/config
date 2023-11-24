@@ -38,7 +38,7 @@ font-1 = "Symbols Nerd Font:size=16;4"
 
 modules-left = date xworkspaces
 modules-center = spotify
-modules-right = bluetooth network memory pulseaudio power
+modules-right = bluetooth network memory pulseaudio picom power
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -194,10 +194,18 @@ exec = ~/.config/polybar/scripts/network.sh
 interval = 5
 ; click-left = exec nmtui
 
+[module/picom]
+type = custom/ipc
+hook-0 = echo %{F#666} 󰧽
+hook-1 = echo 󰌨
+click-left = ~/.config/polybar/scripts/picom.sh
+initial = 1
+format-foreground = ${colors.primary}
+
 [module/power]
 type = custom/script
 exec = ~/.config/polybar/scripts/power.sh
-interval = 5
+interval = 30
 click-left = exec xfce4-power-manager-settings
 
 [settings]
