@@ -21,6 +21,7 @@ fi
 
 ./package.sh
 ./link.sh
+./desktop.sh
 ./atcoder.sh
 ./rustup.sh
 ./plemoljp.sh
