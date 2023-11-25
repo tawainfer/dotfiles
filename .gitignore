@@ -31,8 +31,6 @@
 !/.config/xfce4/
 /.config/xfce4/**
 !/.config/xfce4/helpers.rc
-!/.pictures/
-/.pictures/**
 
 !/keyconfig/
 !/keyconfig/**
