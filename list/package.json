@@ -1,9 +1,4 @@
 {
-  "init": [
-    "git",
-    "jq",
-    "yay"
-  ],
   "minimal": [
     "acpi",
     "alacritty",
@@ -20,8 +15,10 @@
     "feh",
     "ffmpeg",
     "font-manager",
+    "git",
     "i3-wm",
     "imagemagick",
+    "jq",
     "lightdm",
     "lightdm-gtk-greeter",
     "materia-gtk-theme",
@@ -44,6 +41,7 @@
     "xorg-xdpyinfo",
     "xorg-xev",
     "xorg-xrandr",
+    "yay",
     "zip"
   ],
   "normal": [

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname ${BASH_SOURCE[0]})
+
 if [ $(pgrep fcitx5 | wc -l) -ne 0 ]
 then
   read -p 'Do you want to kill fcitx5? It will not work properly if fcitx5 is running. [y/N]: ' cmd
@@ -8,3 +10,5 @@ then
     killall fcitx5
   fi
 fi
+
+yay -S --needed git jq yay
