@@ -11,4 +11,4 @@ then
   fi
 fi
 
-yay -S --needed git jq yay
+yay -S --needed jq

@@ -3,10 +3,7 @@
 install_packages() {
   local key="$1"
   package_list=($(jq -r ".$key[]" ../list/package.json))
-
-  for package in "${package_list[@]}"; do
-    yay -S --needed "$package"
-  done
+  yay -S --needed $package_list
 }
 
 cd $(dirname ${BASH_SOURCE[0]})
