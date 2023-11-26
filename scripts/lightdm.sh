@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd $(dirname ${BASH_SOURCE[0]})
 mkdir -p ../.pictures
@@ -32,18 +32,3 @@ sudo mkdir -p $(dirname "$aft_wallpaper_path")
 sudo cp -fv "$conf_path" "$aft_conf_path"
 sudo cp -fv "$icon_path" "$aft_icon_path"
 sudo cp -fv "$wallpaper_path" "$aft_wallpaper_path"
-
-exit
-
-files=(
-  "/etc/lightdm/lightdm-gtk-greeter.conf"
-  "/usr/share/pictures/wallpaper/arch_wallpaper.png"
-  "/usr/share/pictures/icon/my_cat.jpg"
-)
-
-for aft in "${files[@]}"; do
-  dir=$(dirname "$aft")
-  sudo mkdir -p "$dir"
-  bef=$(basename "$aft")
-  sudo cp -fv "$bef" "$aft"
-done

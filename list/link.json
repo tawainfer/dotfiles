@@ -1,0 +1,26 @@
+{
+  "minimal": [
+    ".config/alacritty",
+    ".config/dunst",
+    ".config/fcitx5/conf/xim.conf",
+    ".config/fcitx5/config",
+    ".config/fcitx5/profile",
+    ".config/fontconfig/fonts.conf",
+    ".config/gtk-3.0/settings.ini",
+    ".config/i3",
+    ".config/picom",
+    ".config/polybar",
+    ".pictures",
+    ".bashrc",
+    ".fehbg",
+    ".xprofile"
+  ],
+  "normal": [
+    ".config/nvim",
+    ".config/qt5ct",
+    ".config/xfce4/helpers.rc",
+    ".gtkrc-2.0"
+  ],
+  "full": [
+  ]
+}
