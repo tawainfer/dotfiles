@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cd $(dirname ${BASH_SOURCE[0]})
-mkdir -p ../.pictures
 
 conf_path='../lightdm/lightdm-gtk-greeter.conf'
 if [ ! -e $conf_path ]
@@ -11,14 +10,18 @@ then
 fi
 aft_conf_path="/etc/lightdm/$(basename $conf_path)"
 
-icon_path='../.pictures/dm_icon.png'
+icon_path="${HOME}/.pictures/dm_icon.png"
+mkdir -p $(dirname $icon_path)
+
 if [ ! -e $icon_path ]
 then
   convert -size 512x512 "xc:#abc" $icon_path
 fi
 aft_icon_path="/usr/share/dotfiles/pictures/$(basename $icon_path)"
 
-wallpaper_path='../.pictures/dm_wallpaper.png'
+wallpaper_path="${HOME}/.pictures/dm_wallpaper.png"
+mkdir -p $(dirname $icon_path)
+
 if [ ! -e $wallpaper_path ]
 then
   convert -size 1920x1080 "xc:#333" $wallpaper_path
