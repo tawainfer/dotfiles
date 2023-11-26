@@ -16,21 +16,22 @@ create_links() {
 
 cd $(dirname ${BASH_SOURCE[0]})
 
-read input
-if [[ "$input" != "minimal" && "$input" != "normal" && "$input" != "full" ]]
+path='/tmp/dotfiles_choice'
+if [[ ! -e $path ]]
 then
   echo 'invalid choice'
   exit 1
 fi
+choice=$(cat $path)
 
 create_links 'minimal'
-if [[ "$input" == "minimal" ]]
+if [[ "$choice" == "minimal" ]]
 then
   exit
 fi
 
 create_links 'normal'
-if [[ "$input" == "normal" ]]
+if [[ "$choice" == "normal" ]]
 then
   exit
 fi
