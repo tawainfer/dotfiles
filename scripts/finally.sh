@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm $(ls /tmp | grep -E '^dotfiles')
+rm $(ls /tmp/dotfiles*)
