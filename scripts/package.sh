@@ -7,6 +7,7 @@ install_packages() {
   path='/tmp/dotfiles_packages'
   echo "${package_list[*]}" > $path
   yay -S --needed $(cat $path)
+  rm $path
 }
 
 cd $(dirname ${BASH_SOURCE[0]})
