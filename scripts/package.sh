@@ -3,7 +3,10 @@
 install_packages() {
   local key="$1"
   package_list=($(jq -r ".$key[]" ../list/package.json))
-  yay -S --needed $package_list
+
+  path='/tmp/dotfiles_packages'
+  echo "${package_list[*]}" > $path
+  yay -S --needed $(cat $path)
 }
 
 cd $(dirname ${BASH_SOURCE[0]})
