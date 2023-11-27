@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/bash
+
+cd $(dirname ${BASH_SOURCE[0]})
 
 if [ $(fc-list | grep PlemolJPConsole_NF | wc -l) -ne 0 ]
 then

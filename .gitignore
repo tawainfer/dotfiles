@@ -36,13 +36,18 @@
 !/keyconfig/**
 !/lightdm/
 !/lightdm/**
+!/list/
+!/list/**
 !/scripts/
 !/scripts/**
+!/util/
+!/util/**
 
 !/.bashrc
 !/.fehbg
 !/.gtkrc-2.0
 !/.xprofile
+!/Makefile
 !/setup.sh
 
 !/.gitignore
