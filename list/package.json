@@ -68,10 +68,7 @@
     "openssh",
     "python-pip",
     "rustup",
-    "spotify",
-    "virtualbox",
-    "virtualbox-guest-iso",
-    "virtualbox-host-dkms"
+    "spotify"
   ],
   "ignore": [
     "base",
@@ -83,7 +80,10 @@
     "linux-lts",
     "linux-lts-headers",
     "mesa",
-    "mesa-utils"
+    "mesa-utils",
+    "virtualbox",
+    "virtualbox-guest-iso",
+    "virtualbox-host-dkms"
   ],
   "unknown": []
 }
