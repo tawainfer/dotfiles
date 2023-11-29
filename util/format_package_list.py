@@ -16,7 +16,7 @@ if __name__ == '__main__':
   with open('../list/package.json', 'r') as rf:
     package_lists = json.load(rf)
   
-  keys = ['init', 'minimal', 'normal', 'full', 'ignore', 'unknown']
+  keys = ['minimal', 'normal', 'full', 'ignore', 'unknown']
   for key in keys:
     if key not in package_lists:
       package_lists[key] = set()
@@ -46,5 +46,6 @@ if __name__ == '__main__':
     package_lists[key] = list(package_lists[key])
     package_lists[key].sort()
 
-  with open('../list/package.json', 'w') as wf:
+  os.makedirs('../tmp', exist_ok=True)
+  with open('../tmp/new_package.json', 'w') as wf:
     json.dump(package_lists, wf, indent = 2)
