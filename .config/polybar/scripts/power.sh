@@ -1,6 +1,6 @@
 #!/bin/sh
 
-color='5aa7e6'
+color='BD93F9'
 battery=$(acpi -b | grep -v 'rate information unavailable' | grep -m 1 -oE '[1-9][0-9]*')
 patterns=('󰂎' '󰁺' '󰁻' '󰁼' '󰁽' '󰁾' '󰁿' '󰂀' '󰂁' '󰂂' '󰁹')
 

@@ -1,11 +1,10 @@
 [colors]
-background = #333333
+background = #282A36
 background-alt = #373B41
-foreground = #eeeeee
-primary = #5aa7e6
-secondary = #8ABEB7
-alert = #A54242
-disabled = #666666
+foreground = #F8F8F2
+primary = #BD93F9
+alert = #FF5555
+disabled = #44475A
 
 [bar/mybar]
 monitor = ${env:MONITOR:}

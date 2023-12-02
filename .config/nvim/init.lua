@@ -1,3 +1,21 @@
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+
+require("lazy").setup({
+  "Mofiqul/dracula.nvim"
+})
+
+-- 個人的な設定
 local options = {
   fileencoding = "utf-8", -- エンコーディングをUTF-8に設定
   swapfile = false, -- スワップファイルを作成しない
@@ -20,5 +38,5 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
-vim.cmd[[colorscheme retrobox]]
+vim.cmd[[colorscheme dracula-soft]]
 vim.cmd[[let g:python_recommended_style = 0]] -- pythonで上記のインデント設定を使うための設定

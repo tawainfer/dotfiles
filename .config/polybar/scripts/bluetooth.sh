@@ -1,15 +1,15 @@
 #!/bin/sh
 
-color='5aa7e6'
+color='BD93F9'
 symbol=󰂯
 
 if [ $(rfkill -J list bluetooth | grep yes | wc -l) -ne 0 ]
 then
-  color='666'
+  color='44475A'
 else
   if [ $(bluetoothctl info | grep "Connected: yes" | wc -l) -eq 0 ]
   then 
-    color='eee'
+    color='F8F8F2'
   fi
 fi
 
