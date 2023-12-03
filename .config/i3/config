@@ -207,29 +207,6 @@ bindsym --release $Mod+Print exec mkdir -pv ${HOME}/Pictures/screenshot & ffmpeg
 # set wallpaper
 exec --no-startup-id ~/.fehbg
 
-# color
-# set $bg           #666666
-# set $fg           #4682b4
-# set $darkred      #D95882
-# set $red          #E4436F
-# set $darkgreen    #68DDC4
-# set $green        #24E39D
-# set $darkyellow   #E8AEAA
-# set $yellow       #dbb339
-# set $darkblue     #64A4BF
-# set $blue         #0d33ff
-# set $darkmagenta  #ed58f5
-# set $darkcyan     #54AEB8
-# set $cyan         #00A5AF
-# set $darkwhite    #CACACC
-# set $white        #EEEEEE
-# set $darkgrey     #6C6F93
-
-# focus color
-# class border background text indicator child_border
-# client.focused              $bg         $darkgrey       $fg         $yellow         $fg
-# client.unfocused            #000000         $bg             $fg         $yellow         #000000
-
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #BD93F9   #6272A4
 client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A

@@ -19,7 +19,7 @@ then
 fi
 
 host_color="\[\e[38;2;${rgb[0]};${rgb[1]};${rgb[2]}m\]"
-user_color="\[\e[38;2;90;167;230m\]"
-gray="\[\e[38;2;153;153;153m\]"
-white="\[\e[38;2;238;238;238m\]"
+user_color="\[\e[38;2;189;147;249m\]"
+gray="\[\e[38;2;148;150;164m\]"
+white="\[\e[38;2;248;248;242m\]"
 PS1="\n${user_color}[\u] ${host_color}[\h] ${gray}\w\n${white}\$ "

@@ -5,7 +5,7 @@ symbol=󰂯
 
 if [ $(rfkill -J list bluetooth | grep yes | wc -l) -ne 0 ]
 then
-  color='44475A'
+  color='666666'
 else
   if [ $(bluetoothctl info | grep "Connected: yes" | wc -l) -eq 0 ]
   then 

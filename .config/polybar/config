@@ -4,7 +4,7 @@ background-alt = #373B41
 foreground = #F8F8F2
 primary = #BD93F9
 alert = #FF5555
-disabled = #44475A
+disabled = #666666
 
 [bar/mybar]
 monitor = ${env:MONITOR:}
