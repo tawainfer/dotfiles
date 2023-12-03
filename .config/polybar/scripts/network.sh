@@ -5,7 +5,7 @@ symbol=󰖟
 
 if [ $(rfkill -J list wlan | grep yes | wc -l) -ne 0 ]
 then
-  color='44475A'
+  color='666666'
 else
   if [[ $(nmcli networking connectivity) == "none" ]]
   then 
