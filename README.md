@@ -3,6 +3,7 @@
 ![](https://raw.githubusercontent.com/tawainfer/dotfiles/images/desktop.png)
 
 - OS: Arch Linux
+- Theme: Dracula
 - Desktop: i3wm + polybar + picom
 
 <br>
@@ -47,6 +48,10 @@ make [target]
 - デスクトップ: `~/.pictures/desktop.png`
 - DM(アイコン): `~/.pictures/dm_icon.png`
 - DM(壁紙): `~/.pictures/dm_wallpaper.png`
+
+<br>
+
+※ DMについては、再起動を行っても設定した画像が自動では反映されないため、`make`コマンドを実行するか、`scripts/lightdm.sh`を手動で実行してください。
 
 <br>
 <br>
