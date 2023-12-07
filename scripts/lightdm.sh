@@ -15,7 +15,7 @@ mkdir -p $(dirname $icon_path)
 
 if [ ! -e $icon_path ]
 then
-  convert -size 512x512 "xc:#abc" $icon_path
+  convert -size 512x512 "xc:#F8F8F2" $icon_path
 fi
 aft_icon_path="/usr/share/dotfiles/pictures/$(basename $icon_path)"
 
@@ -24,7 +24,7 @@ mkdir -p $(dirname $icon_path)
 
 if [ ! -e $wallpaper_path ]
 then
-  convert -size 1920x1080 "xc:#333" $wallpaper_path
+  convert -size 1920x1080 "xc:#6272A4" $wallpaper_path
 fi
 aft_wallpaper_path="/usr/share/dotfiles/pictures/$(basename $wallpaper_path)"
 
