@@ -69,7 +69,8 @@
     "neofetch",
     "openssh",
     "python-pip",
-    "rustup"
+    "rustup",
+    "tk"
   ],
   "ignore": [
     "base",
