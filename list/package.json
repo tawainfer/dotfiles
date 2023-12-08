@@ -62,6 +62,7 @@
   ],
   "full": [
     "arandr",
+    "drawio-desktop-bin",
     "jdk-openjdk",
     "mono",
     "monodevelop-bin",
