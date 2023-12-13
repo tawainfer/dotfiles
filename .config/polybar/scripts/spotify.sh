@@ -13,5 +13,5 @@ then
 
   echo "  $title / $artist"
 else
-  echo 'NO MUSIC, NO LIFE!!'
+  echo '  Spotify'
 fi
