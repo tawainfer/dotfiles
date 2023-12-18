@@ -12,6 +12,7 @@
     ".config/polybar",
     ".config/qt5ct",
     ".bashrc",
+    ".default-npm-packages",
     ".fehbg",
     ".gtkrc-2.0",
     ".xprofile"

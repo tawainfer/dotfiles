@@ -23,3 +23,5 @@ user_color="\[\e[38;2;189;147;249m\]"
 gray="\[\e[38;2;148;150;164m\]"
 white="\[\e[38;2;248;248;242m\]"
 PS1="\n${user_color}[\u] ${host_color}[\h] ${gray}\w\n${white}\$ "
+
+. /opt/asdf-vm/asdf.sh

@@ -14,6 +14,7 @@ normal:
 full:
 	echo 'full' > /tmp/dotfiles_choice
 	$(MAKE) common
+	./scripts/asdf.sh
 	./scripts/rustup.sh
 	./scripts/finally.sh
 

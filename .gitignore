@@ -46,6 +46,7 @@
 
 !/.bashrc
 !/.fehbg
+!/.default-npm-packages
 !/.gtkrc-2.0
 !/.xprofile
 !/Makefile
