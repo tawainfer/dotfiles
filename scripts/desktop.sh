@@ -7,5 +7,5 @@ mkdir -p $(dirname $path)
 
 if [ ! -e $path ]
 then
-  convert -size 1920x1080 "xc:##6272A4" $path
+  convert -size 1920x1080 "xc:#F8F8F2" $path
 fi
