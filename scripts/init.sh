@@ -11,4 +11,5 @@ then
   fi
 fi
 
+yay
 yay -S --needed jq
